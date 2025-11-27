@@ -199,3 +199,18 @@ footer {
   color: #777;
   font-size: 14px;
 }
+
+/* bouton de suppression à côté d'un participant */
+.delete-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.delete-btn:hover {
+  background: rgba(198,40,40,0.06);
+}
