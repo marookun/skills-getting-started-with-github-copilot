@@ -142,3 +142,60 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* === Nouvelles règles : liste des participants === */
+.participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #eee;
+}
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+.participants ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+  font-size: 14px;
+  color: #333;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #0d47a1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid rgba(13,71,161,0.08);
+}
+.participant-email {
+  word-break: break-all;
+  color: #555;
+}
+
+/* petit style lorsque pas encore de participants */
+.no-participants {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+}
